@@ -1,5 +1,5 @@
 
-<form action="<%=posts_path%>" method="post">
+
   <%=form_tag posts_path do%>
     <label>Post title:</label>
     <%= text_field_tag :'post[title]' %><br>
@@ -11,6 +11,6 @@
 
     <%= submit_tag "Submit Post" %>
   <%end%>
-</form>
+
 
 <h3>Post Form</h3>
